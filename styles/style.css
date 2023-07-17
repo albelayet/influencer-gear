@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;800&family=Work+Sans:wght@100;200;300;400;600;700&display=swap');
+
+body {
+    background: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+header {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+.nav-title {
+    color: #3A3A3A;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.nav-item{
+    
+}
+.nav-item ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item ul li{
+    margin-right: 30px;
+}
+.nav-item ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+font-size: 1rem;
+font-weight: 600;
+}
