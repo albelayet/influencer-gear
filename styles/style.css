@@ -25,20 +25,115 @@ header {
     font-size: 1.5rem;
     font-weight: 700;
 }
-.nav-item{
-    
-}
-.nav-item ul{
+
+.nav-item {}
+
+.nav-item ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
 }
-.nav-item ul li{
+
+.nav-item ul li {
     margin-right: 30px;
 }
-.nav-item ul li a{
+
+.nav-item ul li a {
     text-decoration: none;
     color: #3A3A3A;
-font-size: 1rem;
-font-weight: 600;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    gap: 100px;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.banner-info {
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.banner-btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.banner-img {
+    background-image: url('../images/Circle\ design.svg');
+    align-items: center;
+}
+
+.banner-img img {
+    margin: 30px 30px 30px 2px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:476px) {
+    .navigation{
+        flex-direction: column;
+        margin: 30px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin: 30px;
+
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-img{
+        background-position: center;
+        background-size: cover;
+    }
+    .banner-img img{
+        width: 100%;
+        margin: 10px;
+    }
 }
